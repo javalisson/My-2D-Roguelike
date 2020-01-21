@@ -89,7 +89,6 @@ public class Player : MovingObject
 
   private void Restart()
   {
-    Debug.Log(SceneManager.GetActiveScene().name);
     SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
   }
 
